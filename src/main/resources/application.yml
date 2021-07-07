@@ -1,3 +1,8 @@
+spring:
+  thymeleaf:
+    cache: false
+  messages:
+    basename: i18n.login
 #person:
 #  name: gjw${random.uuid}
 #  age: ${random.int}
@@ -30,4 +35,6 @@
 #spring:
 #  config:
 #    activate:
+server:
+  port: 8081
 #      on-profile: test
